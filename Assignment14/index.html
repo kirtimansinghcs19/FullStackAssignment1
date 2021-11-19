@@ -49,14 +49,14 @@
 <script>
     var minus = document.getElementById("minus");
     var plus = document.getElementById("plus");
-    count = document.getElementById("count");
+    var count = document.getElementById("count");
     var counter = 0;
     updateCounter();
 
     function updateCounter() {
         count.innerHTML = counter;
-        if (counter <= 0) minus.style.color = "grey";
-        else minus.style.color = "black";
+     //   if (counter <= 0) minus.style.color = "grey";
+     //   else minus.style.color = "black";
     }
 
     plus.addEventListener("click", () => {
